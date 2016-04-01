@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+    <ImageView
+        android:id="@+id/camera_list_pic"
+        android:layout_width="fill_parent"
+        android:layout_height="228dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="14dp"
+        android:scaleType="centerCrop"
+        android:background="@mipmap/image6" />
+
+    <TextView
+        android:id="@+id/camera_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_alignLeft="@id/camera_list_pic"
+        android:layout_alignStart="@id/camera_list_pic"
+        android:layout_alignTop="@id/camera_list_pic"
+        android:text="dd"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:id="@+id/is_no_online"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:background="@mipmap/icon_on_line"
+        android:layout_alignRight="@id/camera_list_pic"
+        />
+</RelativeLayout>
